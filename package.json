@@ -8,6 +8,6 @@
 	"author": "yuler <joyful4yu@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"test": "deno run index.ts"
+		"test": "deno run -A index.ts"
 	}
 }
