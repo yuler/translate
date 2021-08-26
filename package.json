@@ -9,6 +9,6 @@
 	"license": "MIT",
 	"scripts": {
 		"start": "deno run -A --no-check index.ts",
-		"test": "deno test"
+		"test": "deno test -A"
 	}
 }

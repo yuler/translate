@@ -52,12 +52,14 @@ export function sign(text: string, gtk: string): string {
 					f.slice(-10).join(''))
 		}
 		var u = void 0,
-			// gtk
 			// l =
 			// 	'' +
 			// 	String.fromCharCode(103) +
 			// 	String.fromCharCode(116) +
 			// 	String.fromCharCode(107)
+			// u = null !== i ? i : (i = window[l] || '') || ''
+
+			// Modify the above commented code for use `gtk` from param
 			u = null !== i ? i : (i = gtk || '') || ''
 		for (
 			var d = u.split('.'),
