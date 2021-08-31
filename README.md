@@ -5,3 +5,5 @@
 ## Features
 
 - ESM module
+
+https://github.com/baizn/translation.js

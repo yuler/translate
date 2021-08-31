@@ -1,0 +1,14 @@
+{
+	"name": "translate",
+	"version": "0.0.1",
+	"description": "Provide a translate api from some web pages",
+	"main": "index.js",
+	"type": "module",
+	"repository": "https://github.com/yuler/translate.git",
+	"author": "yuler <joyful4yu@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "deno run -A --no-check index.ts",
+		"test": "deno test -A"
+	}
+}
